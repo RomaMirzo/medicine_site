@@ -88,10 +88,10 @@ h2 {
 
 .header {
     &_chapter {
-    @include display-flex-content-center;
+    @include display-flex-content-center; 
 
 	max-width: 100%;
-	background: url('/img/header_background_foto.png') no-repeat;
+	background: url('../img/header_background_foto.png') no-repeat;
 	background-position: center;
     background-size: cover;
     padding: 0 15px;
@@ -819,7 +819,7 @@ input {
 
 .why {
 	padding: 0 15px;
-    background: url('/img/dark_background1.png');
+    background: url('../img/dark_background1.png');
     background-position: center;
     background-size: cover;
 }
@@ -1485,7 +1485,7 @@ input {
 
 .footer {
 	margin-top: 2%;
-	background: url('/img/dark_background2.png');
+	background: url('../img/dark_background2.png');
     background-position: center;
     background-size: cover;
 }
